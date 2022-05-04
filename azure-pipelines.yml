@@ -8,7 +8,7 @@
 
 variables:
   phpVersion: 7.2
-  app_name: pipelines-php
+  app_name: ey-tax-server-php-fpm
 
 pool:
   name: Default
