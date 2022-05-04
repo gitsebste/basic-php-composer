@@ -1,4 +1,4 @@
-FROM nginx:1.15-alpine
+FROM nginx:1.15
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y curl
 RUN usermod -u 1000 www-data
